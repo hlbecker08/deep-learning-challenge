@@ -1,8 +1,10 @@
 # deep-learning-challenge
+The final analysis can be found below within the readme. Our inital code for creating the neural network model can be found in the file 'Starter_Code.ipynb' with its trained model named 'AlphabetSoupCharity.h5'. The three attempts to make the model more efficient is found under 'AlphabetSoupCharity_Optimization.ipynb' with its trained model called 'AlphabetSoupCharity_Optimization.h5'. This project was done with Conner Dekok. 
+
 
 ## Overview 
 
-* The purpose of this analysis is to predict whether or not a charity is successful or not
+* The purpose of this analysis is to predict whether or not a charity is successful or not using a neural network model.
 * The information we are given to determine this is	'EIN','NAME','APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS','ASK_AMT', 'IS_SUCCESSFUL'. The 'IS_SUCCESSFUL' column is what we are looking to predict.
 
 
