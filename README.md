@@ -28,10 +28,13 @@ Compiling, Training, and Evaluating the Model
 * What steps did you take in your attempts to increase model performance?
     * The following attempts were made
         * Using Tanh activation functions in the hidden layers. While Relu passes only positive values Tanh includes negative. Since our data set has negative values we wanted to test to see how it would do with Tanh. It came to an accuarcy of 72.85%
+![Test1](https://github.com/user-attachments/assets/7e548e8a-e72e-408c-bb41-272414752a19)
 
         * Adding a third hidden layer and returning to Relu. We wanted to see if it was possible we were underfitting the model with two layers. This came to an accuarcy of 72.83%
+![Test2](https://github.com/user-attachments/assets/7c55fc93-e6b3-4604-9245-2b7940ae2ca5)
 
         * Returning to two layers and using less hidden layer nuerons (24 and 16) to see if we have overfit the model. This came to an accuarcy of 73.01%
+![Test3](https://github.com/user-attachments/assets/298e6083-c1ba-4e94-84a8-ffbc181bc815)
 
 
 ## Summary
